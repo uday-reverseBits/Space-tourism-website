@@ -10,7 +10,7 @@
     background-color: black;
     color: #fff;
     position: relative;
-    background-image: url(images/Desktop\ -\ Destination\ -\ A.png);
+    background-image: url(/images/Desktop\ -\ Destination\ -\ A.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -81,7 +81,7 @@ nav>.img2{
 
 /* ----------moon------------------- */
 
-.moon{
+.moon-related{
     display: flex;
     justify-content: space-around;
     align-items: center;
