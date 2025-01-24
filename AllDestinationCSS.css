@@ -51,7 +51,7 @@ nav>.img2 {
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font-family: Barlow Condensed;
+    font-family: "Barlow Condensed", serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.2px;
@@ -75,7 +75,9 @@ nav>.img2 {
     margin-top: 2.5rem;
     margin-left: 7rem;
     font-size: 25px;
+    font-family: "Barlow Condensed", serif;
 }
+
 
 .pick-destination>h4 {
     font-weight: 100;
@@ -115,19 +117,22 @@ nav>.img2 {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    font-family: "Barlow Condensed", serif;
 }
+
 
 .planet-info>h1 {
     font-weight: 400;
     font-size: 100px;
     line-height: 114.6px;
-    font-style: Bellefair;
+    font-family: "Bellefair", serif;
 }
 
 .planet-info>p {
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
+    font-family: "Barlow", serif;
 }
 
 .planet-pic {
@@ -159,7 +164,7 @@ nav>.img2 {
     gap: 0px;
     opacity: 0px;
     color: #D0D6F9;
-    font-family: Barlow Condensed;
+    font-family: "Barlow Condensed", serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.8px;
@@ -176,7 +181,7 @@ nav>.img2 {
     gap: 0px;
     opacity: 0px;
     color: #FFFFFF;
-    font-family: Bellefair;
+    font-family: "Bellefair", serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 32.09px;
@@ -191,7 +196,7 @@ nav>.img2 {
     height: 17px;
     gap: 0px;
     opacity: 0px;
-    font-family: Barlow Condensed;
+    font-family: "Barlow Condensed", serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 16.8px;
@@ -208,8 +213,8 @@ nav>.img2 {
     top: 29px;
     gap: 0px;
     opacity: 0px;
-    font-family: Bellefair;
-    font-size: 26px;
+    font-family: "Bellefair", serif;
+    font-size: 24px;
     font-weight: 400;
     line-height: 32.09px;
     text-align: left;
