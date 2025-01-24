@@ -12,6 +12,9 @@
     height: 100vh;
     background-image: url(images/crew-bg.png);
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 /* -------------------navbar-------------- */
@@ -94,12 +97,21 @@ nav>.img2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* width: 80%;
+    margin: auto; */
 }
 
 
 
 
 /* -------right-side------pic */
+
+.person-pic{
+    /* width: 50%; */
+    /* height: auto; */
+    /* flex-shrink: 0; */  
+}
+
 .person-pic>img {
     width: 568.07px;
     height: 712px;
@@ -113,6 +125,9 @@ nav>.img2 {
     flex-direction: column;
     /* margin-top: 20%; */
     /* padding: 20px; */
+    /* flex-grow: 1; */
+   /* width: 50%; */
+   /* height: auto; */
 }
 
 /* ---------left-side--person-info----------- */
@@ -161,7 +176,15 @@ p {
     margin-top: 140px;
 }
 
-.circle-navigation>.circle {
+.circle-navigation>ul{
+    list-style: none;
+}
+
+.circle-navigation>ul>li{
+    display: inline-block;
+}
+
+.circle-navigation>ul>li>a {
     width: 15px;
     height: 15px;
     border-radius: 50%;
