@@ -63,7 +63,7 @@ nav>.img2 {
     text-decoration-skip-ink: none;
 }
 
-.nav-links ul li a span{
+.nav-links ul li a span {
     font-weight: 700;
     padding: 5px;
 }
@@ -102,40 +102,32 @@ nav>.img2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 80%;
-    margin: auto; */
+    position: relative;
 }
 
 
-
-
-/* -------right-side------pic */
-
-.person-pic{
-    /* width: 50%; */
-    /* height: auto; */
-    /* flex-shrink: 0; */  
-}
-
-.person-pic>img {
-    width: 568.07px;
-    height: 712px;
-    opacity: 0px;
-}
 
 
 /* ------------left-side---container----------- */
-.container {
+.left-container {
     display: flex;
     flex-direction: column;
-    /* margin-top: 20%; */
-    /* padding: 20px; */
-    /* flex-grow: 1; */
-   /* width: 50%; */
-   /* height: auto; */
+    width: 60%;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 /* ---------left-side--person-info----------- */
+.person-info {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+
 .person-info>h3,
 h2,
 p {
@@ -178,14 +170,17 @@ p {
 
 /* -------------left-side-circlr-navigation---------- */
 .circle-navigation {
-    margin-top: 140px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 88px;
 }
 
-.circle-navigation>ul{
+.circle-navigation>ul {
     list-style: none;
 }
 
-.circle-navigation>ul>li{
+.circle-navigation>ul>li {
     display: inline-block;
 }
 
@@ -196,4 +191,18 @@ p {
     background-color: #fff;
     display: inline-block;
     margin: 0 10px;
+}
+
+
+
+
+/* -------right-side------pic */
+
+.person-pic {
+    width: 40%;
+    height: 712px;
+}
+
+.person-pic>img {
+    opacity: 0px;
 }
