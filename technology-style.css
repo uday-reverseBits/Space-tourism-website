@@ -10,7 +10,7 @@
 .technology {
     width: 100%;
     height: 100vh;
-    background-image: url(images/crew-bg.png);
+    background-image: url(/images/technology-bg.jpg);
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,6 +48,11 @@ nav>.img2 {
 .nav-links ul li {
     list-style: none;
     padding: 8px 12px;
+}
+
+.nav-links>ul>li>a>span{
+    font-weight: 700;
+    padding: 5px;
 }
 
 .nav-links ul li a {
@@ -97,10 +102,17 @@ nav>.img2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5%;
+    position: relative;
 }
 
-
-
+.container-left{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10%;
+}
 
 
 
@@ -126,9 +138,9 @@ nav>.img2 {
     background-color: #fff;
     margin: 10px 0;
 
-    display: flex;             /* Enable flexbox on the li */
-    justify-content: center;   /* Horizontally center the text inside the li */
-    align-items: center;       /* Vertically center the text inside the li */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .numbered-lists>ul>li>a {
@@ -138,9 +150,55 @@ nav>.img2 {
 
 
 
+/* -------------second-div-------------- */
+.technology-info{
+
+}
+
+.technology-info>h6 {
+    font-family: "Barlow Condensed", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #D0D6F9;
+}
+
+.technology-info>h2 {
+    font-family: "Bellefair", serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64.18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.technology-info>p {
+    font-family: "Barlow", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #D0D6F9;
+}
+
 
 /* ---------third-div--------- */
+.tech-img {
+    width: 40%;
+    height: 550px;
+    position: relative;
+    display: flex;
+
+}
+
 .tech-img>img {
-    position: absolute;
-    right: 0;
+   position: absolute;
+   right: 0;
 }
