@@ -63,6 +63,11 @@ nav>.img2 {
     text-decoration-skip-ink: none;
 }
 
+.nav-links ul li a span{
+    font-weight: 700;
+    padding: 5px;
+}
+
 .nav-links {
     background: #FFFFFF0A;
     backdrop-filter: blur(81.54845428466797px);

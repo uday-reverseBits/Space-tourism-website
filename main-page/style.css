@@ -47,13 +47,25 @@ nav>.img2 {
 
 .nav-links ul li {
     list-style: none;
-    padding: 8px 22px;
+    padding: 8px 12px;
+}
+
+.nav-links>ul>li>a>span{
+    font-weight: 700;
+    padding: 5px;
 }
 
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
     font-family: "Barlow Condensed", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 2.700000047683716px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 
 .nav-links {
@@ -61,6 +73,7 @@ nav>.img2 {
     backdrop-filter: blur(81.54845428466797px);
     padding: 20px 200px;
 }
+
 
 /* -----------navbar---------- */
 
